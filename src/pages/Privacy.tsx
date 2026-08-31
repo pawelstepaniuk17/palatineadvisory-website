@@ -7,8 +7,8 @@ const Privacy = () => {
   return (
     <>
       <Helmet>
-        <title>Privacy Policy | Olive Tree Consulting Group</title>
-        <meta name="description" content="How Olive Tree Consulting Group collects, uses, and protects personal information in accordance with the GDPR." />
+        <title>Privacy Policy | Palatine Advisory</title>
+        <meta name="description" content="How Palatine Advisory collects, uses, and protects personal information in accordance with the GDPR." />
         <link rel="canonical" href="https://palatineadvisory.com/privacy" />
       </Helmet>
 
@@ -32,7 +32,7 @@ const Privacy = () => {
 
                   <Section n="01" title="Data Controller">
                     <p>
-                      Olive Tree Consulting Group ("we", "us", "the firm") is the
+                      Palatine Advisory ("we", "us", "the firm") is the
                       data controller of personal information processed through this
                       website and through correspondence initiated with us. You may
                       reach the controller at{' '}

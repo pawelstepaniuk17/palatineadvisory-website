@@ -30,7 +30,7 @@ export const AboutSection = () => {
           <div className="lg:col-span-5">
             <p className="label-small text-ink/60 mb-5">§ 01, When useful</p>
             <h2 className="heading-section text-ink">
-              When Olive Tree is useful
+              When Palatine Advisory is useful
             </h2>
           </div>
           <div className="lg:col-span-6 lg:col-start-7 pt-2">

@@ -120,8 +120,8 @@ const PracticeIndex = () => {
   return (
     <>
       <Helmet>
-        <title>Practice Areas | Olive Tree Consulting Group</title>
-        <meta name="description" content="Olive Tree works on recurring management issues inside leadership teams: decision habits, responsibility and handoffs, leadership meeting rhythm, priority movement, and management reset." />
+        <title>Practice Areas | Palatine Advisory</title>
+        <meta name="description" content="Palatine Advisory works on recurring management issues inside leadership teams: decision habits, responsibility and handoffs, leadership meeting rhythm, priority movement, and management reset." />
         <link rel="canonical" href="https://palatineadvisory.com/practice" />
       </Helmet>
 
@@ -131,7 +131,7 @@ const PracticeIndex = () => {
           <PageHeader
             eyebrow="§ Practice"
             title="Practice areas"
-            lede="Olive Tree works on recurring management issues inside leadership teams."
+            lede="Palatine Advisory works on recurring management issues inside leadership teams."
             background="buttercream"
           />
 
@@ -141,7 +141,7 @@ const PracticeIndex = () => {
               <div className="grid lg:grid-cols-12 gap-10">
                 <div className="lg:col-span-8">
                   <p className="body-large text-ink/85">
-                    Olive Tree works on recurring management issues inside
+                    Palatine Advisory works on recurring management issues inside
                     leadership teams. The categories below are not separate
                     products. They are common places where management work
                     becomes unclear.
@@ -237,7 +237,7 @@ const PracticeIndex = () => {
 
           <Crosslinks
             items={[
-              { label: 'How Olive Tree works', to: '/approach', caption: '§ Approach', bg: 'lavender' },
+              { label: 'How Palatine Advisory works', to: '/approach', caption: '§ Approach', bg: 'lavender' },
               { label: 'About the firm', to: '/about', caption: '§ About', bg: 'buttercream' },
               { label: 'Start a conversation', to: '/contact', caption: '§ Contact', bg: 'mustard' },
             ]}

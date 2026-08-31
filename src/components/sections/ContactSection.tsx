@@ -42,8 +42,7 @@ export const ContactSection = () => {
             <div className="border border-paper/20 p-8 lg:p-10">
               <p className="label-small text-paper/50 mb-6">Office</p>
               <address className="not-italic font-serif text-2xl text-paper leading-snug mb-8">
-                Olive Tree<br />
-                Consulting Group<br />
+                Palatine Advisory<br />
                 <span className="text-paper/70">Via Savoia, 78</span><br />
                 <span className="text-paper/70">00198 Roma</span>
               </address>

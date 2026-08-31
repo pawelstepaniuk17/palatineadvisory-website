@@ -12,7 +12,7 @@ export const ApproachSection = () => {
           </div>
           <div className="lg:col-span-6 lg:col-start-7 pt-2 space-y-5">
             <p className="body-large text-ink/80">
-              Olive Tree is not a software firm, financial adviser,
+              Palatine Advisory is not a software firm, financial adviser,
               transaction adviser, coaching practice, or large transformation
               programme.
             </p>

@@ -27,7 +27,7 @@ const expectCards = [
   {
     n: '04',
     title: 'A clean handover',
-    body: 'The work should not depend on Olive Tree staying in the middle. The team should be able to continue the rhythm itself.',
+    body: 'The work should not depend on Palatine Advisory staying in the middle. The team should be able to continue the rhythm itself.',
   },
 ];
 
@@ -35,10 +35,10 @@ const About = () => {
   return (
     <>
       <Helmet>
-        <title>About | Olive Tree Consulting Group</title>
+        <title>About | Palatine Advisory</title>
         <meta
           name="description"
-          content="Olive Tree Consulting Group is a small management advisory firm focused on decisions, responsibilities, priorities, and follow-through inside leadership teams."
+          content="Palatine Advisory is a small management advisory firm focused on decisions, responsibilities, priorities, and follow-through inside leadership teams."
         />
         <link rel="canonical" href="https://palatineadvisory.com/about" />
       </Helmet>
@@ -48,7 +48,7 @@ const About = () => {
         <main>
           <PageHeader
             eyebrow="§ About"
-            title="About Olive Tree Consulting Group"
+            title="About Palatine Advisory"
             lede="A small management advisory firm focused on the way leadership teams make decisions, hold responsibility, manage priorities, and follow through."
             background="paper"
           />
@@ -84,7 +84,7 @@ const About = () => {
                       become expensive habits.
                     </p>
                     <p className="body-base text-ink/75">
-                      Olive Tree helps leadership teams make those habits
+                      Palatine Advisory helps leadership teams make those habits
                       visible and easier to manage.
                     </p>
                   </div>
@@ -141,7 +141,7 @@ const About = () => {
                 </div>
                 <div className="lg:col-span-6 lg:col-start-7 space-y-5">
                   <p className="body-large text-ink/85">
-                    Olive Tree works through focused advisory engagements.
+                    Palatine Advisory works through focused advisory engagements.
                     The work usually includes review, conversations, written
                     notes, practical recommendations, and support while the
                     team starts using a clearer way of working.
@@ -205,7 +205,7 @@ const About = () => {
                 Small enough to stay close to the work
               </h3>
               <p className="body-base text-ink/80 max-w-md">
-                Olive Tree is built as a focused advisory practice. The
+                Palatine Advisory is built as a focused advisory practice. The
                 value is in careful attention, clear writing, and practical
                 judgment, not scale for its own sake.
               </p>
@@ -224,7 +224,7 @@ const About = () => {
                 </div>
                 <div className="lg:col-span-6 lg:col-start-7 pt-2">
                   <p className="body-large text-ink/85">
-                    Olive Tree is built to stay close to the work. Clients
+                    Palatine Advisory is built to stay close to the work. Clients
                     should know who is involved, what is being reviewed,
                     what is being written, and how the recommendations are
                     meant to be used.
@@ -246,7 +246,7 @@ const About = () => {
                   {
                     name: 'Nejra Tuzlak',
                     role: 'Chief Executive Officer',
-                    body: 'Nejra leads Olive Tree Consulting Group. Her background spans human resources, organisational design, and global operations at companies including Cisco, Dropbox, and Unity Technologies. She holds a Bachelor\'s degree in Business Administration from the University of San Francisco and a Master\'s in International Business and HR Management from San José State University.',
+                    body: 'Nejra leads Palatine Advisory. Her background spans human resources, organisational design, and global operations at companies including Cisco, Dropbox, and Unity Technologies. She holds a Bachelor\'s degree in Business Administration from the University of San Francisco and a Master\'s in International Business and HR Management from San José State University.',
                   },
                   {
                     name: 'Natasha Marianna Esposito',
@@ -256,12 +256,12 @@ const About = () => {
                   {
                     name: 'Elise Moretti',
                     role: 'Director of Client Advisory',
-                    body: 'Elise manages client relationships and engagement delivery across Olive Tree\'s practice areas. She previously led operational improvement programmes at McKinsey & Company and Bain & Company, with particular depth in organisational design and leadership team effectiveness. She holds an MBA from INSEAD and a degree in Economics from Bocconi University.',
+                    body: 'Elise manages client relationships and engagement delivery across Palatine Advisory\'s practice areas. She previously led operational improvement programmes at McKinsey & Company and Bain & Company, with particular depth in organisational design and leadership team effectiveness. She holds an MBA from INSEAD and a degree in Economics from Bocconi University.',
                   },
                   {
                     name: 'Luca Romano',
                     role: 'Senior Strategy Advisor',
-                    body: 'Luca advises leadership teams on strategic clarity, decision-making architecture, and execution discipline. Before joining Olive Tree, he spent eight years at The Boston Consulting Group, where he focused on transformation and private equity due diligence. He holds a Master\'s in Management from the London School of Economics and a degree in Business from Università Cattolica del Sacro Cuore.',
+                    body: 'Luca advises leadership teams on strategic clarity, decision-making architecture, and execution discipline. Before joining Palatine Advisory, he spent eight years at The Boston Consulting Group, where he focused on transformation and private equity due diligence. He holds a Master\'s in Management from the London School of Economics and a degree in Business from Università Cattolica del Sacro Cuore.',
                   },
                 ].map((p, i) => (
                   <div
@@ -344,7 +344,7 @@ const About = () => {
                   </div>
                   <div className="lg:col-span-6 lg:col-start-7 self-end">
                     <p className="body-large text-ink/80">
-                      Olive Tree should not look larger than it is. The
+                      Palatine Advisory should not look larger than it is. The
                       site should present the people and the work
                       accurately.
                     </p>

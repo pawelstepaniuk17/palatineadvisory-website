@@ -47,11 +47,11 @@ export const Navigation = () => {
           <Link
             to="/"
             className="flex items-center justify-center w-[88px] lg:w-[112px] flex-shrink-0 border-r border-ink/85 bg-paper hover:bg-buttercream/60 transition-colors"
-            aria-label="Olive Tree Consulting Group, home"
+            aria-label="Palatine Advisory, home"
           >
             <img
               src={logo}
-              alt="Olive Tree Consulting Group"
+              alt="Palatine Advisory"
               className="h-12 w-12 lg:h-14 lg:w-14 object-contain"
             />
           </Link>
@@ -94,8 +94,7 @@ export const Navigation = () => {
           {/* Mobile wordmark */}
           <div className="lg:hidden flex-1 flex items-center px-5">
             <Link to="/" className="font-serif text-base text-ink leading-tight">
-              Olive Tree<br />
-              <span className="text-ink/60 text-sm">Consulting Group</span>
+              Palatine Advisory
             </Link>
           </div>
 

@@ -8,8 +8,8 @@ const Cookies = () => {
   return (
     <>
       <Helmet>
-        <title>Cookie Notice | Olive Tree Consulting Group</title>
-        <meta name="description" content="How Olive Tree Consulting Group uses cookies and similar technologies, and how you can manage your preferences." />
+        <title>Cookie Notice | Palatine Advisory</title>
+        <meta name="description" content="How Palatine Advisory uses cookies and similar technologies, and how you can manage your preferences." />
         <link rel="canonical" href="https://palatineadvisory.com/cookies" />
       </Helmet>
 

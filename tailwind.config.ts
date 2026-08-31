@@ -47,7 +47,7 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
-        // Olive Tree editorial palette
+        // Palatine Advisory editorial palette
         mustard: {
           DEFAULT: "hsl(var(--mustard))",
           deep: "hsl(var(--mustard-deep))",

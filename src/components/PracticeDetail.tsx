@@ -21,7 +21,7 @@ export const PracticeDetail = ({ slug, background, intro, questions, closing, cr
   return (
     <>
       <Helmet>
-        <title>{area.title} | Olive Tree Consulting Group</title>
+        <title>{area.title} | Palatine Advisory</title>
         <meta name="description" content={area.short} />
         <link rel="canonical" href={`https://palatineadvisory.com/practice/${area.slug}`} />
       </Helmet>

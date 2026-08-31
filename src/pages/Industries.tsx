@@ -38,8 +38,8 @@ const Industries = () => {
   return (
     <>
       <Helmet>
-        <title>Where this work fits | Olive Tree Consulting Group</title>
-        <meta name="description" content="Olive Tree is not built around one industry. The work fits teams where management habits have not kept up with the way the business now operates." />
+        <title>Where this work fits | Palatine Advisory</title>
+        <meta name="description" content="Palatine Advisory is not built around one industry. The work fits teams where management habits have not kept up with the way the business now operates." />
         <link rel="canonical" href="https://palatineadvisory.com/industries" />
       </Helmet>
 
@@ -49,7 +49,7 @@ const Industries = () => {
           <PageHeader
             eyebrow="§ Where it fits"
             title="Where this work fits"
-            lede="Olive Tree is not built around one industry. The work fits teams where management habits have not kept up with the way the business now operates."
+            lede="Palatine Advisory is not built around one industry. The work fits teams where management habits have not kept up with the way the business now operates."
             background="sage-mist"
           />
 
@@ -62,7 +62,7 @@ const Industries = () => {
                   The industry matters less than the pattern.
                 </p>
                 <p className="body-base text-ink/75 max-w-md">
-                  Olive Tree is not built around one industry. The work fits
+                  Palatine Advisory is not built around one industry. The work fits
                   teams where management habits have not kept up with the
                   way the business now operates.
                 </p>
@@ -126,7 +126,7 @@ const Industries = () => {
                 </div>
                 <div className="lg:col-span-6 lg:col-start-7 self-end">
                   <p className="body-large text-ink/80">
-                    The industry matters less than the pattern. Olive Tree
+                    The industry matters less than the pattern. Palatine Advisory
                     is useful when good people are spending too much time
                     interpreting, chasing, reopening, or remembering work
                     that should be easier to hold.

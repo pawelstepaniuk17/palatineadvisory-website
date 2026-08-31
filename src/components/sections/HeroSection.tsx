@@ -20,7 +20,7 @@ export const HeroSection = () => {
 
           <div className="mt-16 max-w-md space-y-4">
             <p className="text-ink/85 text-base leading-relaxed">
-              Olive Tree Consulting Group works with leadership teams when
+              Palatine Advisory works with leadership teams when
               ordinary management work has become harder than it should be.
             </p>
             <p className="text-ink/85 text-base leading-relaxed">

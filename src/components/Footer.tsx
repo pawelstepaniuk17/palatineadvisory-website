@@ -98,7 +98,7 @@ export const Footer = () => {
           <div className="lg:col-span-5">
             <img
               src={logo}
-              alt="Olive Tree Consulting Group"
+              alt="Palatine Advisory"
               className="h-16 w-16 lg:h-20 lg:w-20 object-contain mb-8"
             />
 
@@ -106,7 +106,7 @@ export const Footer = () => {
               Make management easier to hold.
             </h2>
             <p className="text-[15px] text-ink/80 leading-relaxed max-w-md mb-12">
-              Olive Tree works with leadership teams on the ordinary
+              Palatine Advisory works with leadership teams on the ordinary
               management work that keeps coming back: decisions,
               responsibilities, meetings, priorities, and follow-through.
             </p>
@@ -196,7 +196,7 @@ export const Footer = () => {
             <div className="lg:col-span-3">
               <p className="font-mono text-[10px] uppercase tracking-[0.2em] text-ink/55 mb-2">Engagements</p>
               <p className="text-[12.5px] leading-relaxed">
-                Any advisory engagement with Olive Tree Consulting Group is governed by separate written terms agreed with the client before work begins.
+                Any advisory engagement with Palatine Advisory is governed by separate written terms agreed with the client before work begins.
               </p>
             </div>
             <div className="lg:col-span-3">
@@ -208,14 +208,14 @@ export const Footer = () => {
             <div className="lg:col-span-3">
               <p className="font-mono text-[10px] uppercase tracking-[0.2em] text-ink/55 mb-2">How we operate</p>
               <p className="text-[12.5px] leading-relaxed">
-                Olive Tree Consulting Group works remotely unless otherwise agreed directly with a client.
+                Palatine Advisory works remotely unless otherwise agreed directly with a client.
               </p>
             </div>
           </div>
         </div>
         <div className="section-container pb-4 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2">
           <p className="font-mono text-[10px] uppercase tracking-[0.2em] text-ink/55">
-            © {year} Olive Tree Consulting Group
+            © {year} Palatine Advisory
           </p>
           <p className="font-mono text-[10px] uppercase tracking-[0.2em] text-ink/55">
             Roma

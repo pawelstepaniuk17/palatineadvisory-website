@@ -1,4 +1,4 @@
-import oliveStill from '@/assets/olive-still-life.jpg';
+import oliveStill from '@/assets/document-review.png';
 
 const steps = [
   {
@@ -37,17 +37,17 @@ export const IndustriesSection = () => {
             A short, practical sequence built around the work the team is
             already doing.
           </p>
-          <div className="bg-paper border border-ink/15 p-2 max-w-[260px] rotate-[1.5deg] shadow-[0_24px_48px_-20px_rgba(0,0,0,0.3)]">
+          <div className="bg-paper-deep border border-brass/40 p-2 max-w-[260px] shadow-[0_30px_60px_-25px_rgba(0,0,0,0.8)]">
             <img
               src={oliveStill}
-              alt="Olives and oil, still life"
+              alt="Reviewing and annotating a printed report"
               className="w-full aspect-[4/5] object-cover"
               loading="lazy"
               width={1024}
               height={1280}
             />
             <p className="font-mono text-[10px] uppercase tracking-[0.2em] text-ink/60 px-2 py-1.5">
-              From the basin · Method
+              Working notes · Method
             </p>
           </div>
         </div>

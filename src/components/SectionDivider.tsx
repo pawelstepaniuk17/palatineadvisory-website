@@ -1,4 +1,4 @@
-import painterly from '@/assets/painterly-band.jpg';
+import painterly from '@/assets/band-texture.png';
 
 interface SectionDividerProps {
   height?: 'sm' | 'md' | 'lg';

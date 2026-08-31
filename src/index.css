@@ -2,64 +2,70 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Olive Tree Consulting Group, Editorial Design System
-   Mustard, lavender, sage, magenta, flat color blocks, generous whitespace.
-   All colors in HSL.
+/* Olive Tree Consulting Group, Institutional Dark Design System
+   Deep warm-charcoal surfaces, warm-ivory type, a single burnished-brass accent.
+   Editorial grid, hairline keylines, generous rhythm. All colors in HSL.
 */
 
 @layer base {
   :root {
-    /* Palette, drawn from the olive tree logo */
-    --mustard: 70 38% 52%;          /* olive-yellow fruit */
-    --mustard-deep: 72 42% 38%;     /* deeper olive */
-    --lavender: 285 18% 84%;        /* dusty aubergine wash */
-    --lavender-deep: 282 20% 64%;   /* aubergine olive */
-    --buttercream: 56 55% 88%;      /* pale olive cream */
-    --sage-mist: 95 14% 76%;        /* silvery sage leaf */
-    --magenta: 285 32% 32%;         /* deep aubergine accent */
-    --ink: 95 38% 18%;              /* dark olive trunk */
-    --paper: 55 35% 95%;            /* warm cream */
-    --paper-deep: 55 22% 90%;
-    --rule: 95 10% 76%;
+    /* Signature accent, burnished brass */
+    --brass: 40 58% 56%;            /* luminous brass, for accents on dark */
+    --brass-deep: 36 48% 44%;       /* darker brass, for use on light islands */
+
+    /* Layered dark surfaces (each a subtle, distinct tint of the base) */
+    --paper: 40 14% 8%;             /* base surface, warm near-black */
+    --paper-deep: 40 12% 11%;       /* recessed alternate surface */
+    --mustard: 36 20% 16%;          /* warm elevated panel */
+    --mustard-deep: 36 22% 23%;     /* warm panel, hover/lift */
+    --lavender: 250 12% 15%;        /* cool elevated panel */
+    --lavender-deep: 250 12% 20%;   /* cool panel, secondary bar */
+    --buttercream: 40 16% 13%;      /* warm alternate row */
+    --sage-mist: 150 12% 14%;       /* green-tinted panel */
+    --magenta: 330 24% 32%;         /* deep muted accent surface */
+
+    /* Type + keyline */
+    --ink: 40 24% 87%;              /* warm ivory, primary foreground + hairlines */
+    --rule: 40 8% 24%;
 
     /* Semantic mapping */
-    --background: 55 35% 95%;
-    --foreground: 95 38% 18%;
+    --background: 40 14% 8%;
+    --foreground: 40 24% 87%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 95 38% 18%;
+    --card: 40 12% 12%;
+    --card-foreground: 40 24% 87%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 95 38% 18%;
+    --popover: 40 12% 12%;
+    --popover-foreground: 40 24% 87%;
 
-    --primary: 95 38% 18%;
-    --primary-foreground: 55 35% 95%;
+    --primary: 40 58% 56%;
+    --primary-foreground: 40 14% 8%;
 
-    --secondary: 70 38% 52%;
-    --secondary-foreground: 95 38% 18%;
+    --secondary: 36 20% 16%;
+    --secondary-foreground: 40 24% 87%;
 
-    --muted: 55 22% 90%;
-    --muted-foreground: 95 12% 36%;
+    --muted: 40 10% 16%;
+    --muted-foreground: 40 12% 62%;
 
-    --accent: 285 18% 84%;
-    --accent-foreground: 95 38% 18%;
+    --accent: 36 22% 23%;
+    --accent-foreground: 40 24% 87%;
 
-    --destructive: 0 70% 45%;
-    --destructive-foreground: 55 35% 95%;
+    --destructive: 0 62% 45%;
+    --destructive-foreground: 40 24% 87%;
 
-    --border: 95 10% 76%;
-    --input: 95 10% 76%;
-    --ring: 95 38% 18%;
+    --border: 40 10% 22%;
+    --input: 40 10% 22%;
+    --ring: 40 58% 56%;
 
-    /* Editorial: flat radii */
-    --radius: 0.25rem;
+    /* Structured executive radius */
+    --radius: 0.375rem;
 
     /* Typography */
-    --font-serif: 'Fraunces', 'DM Serif Display', Georgia, serif;
+    --font-serif: 'Newsreader', 'Fraunces', Georgia, serif;
     --font-sans: 'Inter', 'Source Sans 3', system-ui, sans-serif;
     --font-mono: 'JetBrains Mono', ui-monospace, monospace;
 
-    --shadow-soft: 0 1px 0 hsl(var(--ink) / 0.04);
+    --shadow-soft: 0 1px 0 hsl(0 0% 0% / 0.4);
 
     /* Sidebar (kept) */
     --sidebar-background: 0 0% 98%;
@@ -102,6 +108,7 @@
 
   html {
     scroll-behavior: smooth;
+    background-color: hsl(var(--background));
   }
 
   body {
@@ -120,8 +127,8 @@
   }
 
   ::selection {
-    background: hsl(var(--mustard));
-    color: hsl(var(--ink));
+    background: hsl(var(--brass));
+    color: hsl(var(--paper));
   }
 }
 
@@ -148,6 +155,13 @@
   .text-paper   { color: hsl(var(--paper)); }
   .text-magenta { color: hsl(var(--magenta)); }
   .text-mustard { color: hsl(var(--mustard-deep)); }
+
+  /* Signature brass accent */
+  .bg-brass       { background-color: hsl(var(--brass)); }
+  .bg-brass-deep  { background-color: hsl(var(--brass-deep)); }
+  .text-brass     { color: hsl(var(--brass)); }
+  .text-brass-deep{ color: hsl(var(--brass-deep)); }
+  .border-brass   { border-color: hsl(var(--brass)); }
 
   .border-ink   { border-color: hsl(var(--ink)); }
   .border-rule  { border-color: hsl(var(--rule)); }

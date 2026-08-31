@@ -1,0 +1,192 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Olive Tree Consulting Group, Editorial Design System
+   Mustard, lavender, sage, magenta, flat color blocks, generous whitespace.
+   All colors in HSL.
+*/
+
+@layer base {
+  :root {
+    /* Palette, drawn from the olive tree logo */
+    --mustard: 70 38% 52%;          /* olive-yellow fruit */
+    --mustard-deep: 72 42% 38%;     /* deeper olive */
+    --lavender: 285 18% 84%;        /* dusty aubergine wash */
+    --lavender-deep: 282 20% 64%;   /* aubergine olive */
+    --buttercream: 56 55% 88%;      /* pale olive cream */
+    --sage-mist: 95 14% 76%;        /* silvery sage leaf */
+    --magenta: 285 32% 32%;         /* deep aubergine accent */
+    --ink: 95 38% 18%;              /* dark olive trunk */
+    --paper: 55 35% 95%;            /* warm cream */
+    --paper-deep: 55 22% 90%;
+    --rule: 95 10% 76%;
+
+    /* Semantic mapping */
+    --background: 55 35% 95%;
+    --foreground: 95 38% 18%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 95 38% 18%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 95 38% 18%;
+
+    --primary: 95 38% 18%;
+    --primary-foreground: 55 35% 95%;
+
+    --secondary: 70 38% 52%;
+    --secondary-foreground: 95 38% 18%;
+
+    --muted: 55 22% 90%;
+    --muted-foreground: 95 12% 36%;
+
+    --accent: 285 18% 84%;
+    --accent-foreground: 95 38% 18%;
+
+    --destructive: 0 70% 45%;
+    --destructive-foreground: 55 35% 95%;
+
+    --border: 95 10% 76%;
+    --input: 95 10% 76%;
+    --ring: 95 38% 18%;
+
+    /* Editorial: flat radii */
+    --radius: 0.25rem;
+
+    /* Typography */
+    --font-serif: 'Fraunces', 'DM Serif Display', Georgia, serif;
+    --font-sans: 'Inter', 'Source Sans 3', system-ui, sans-serif;
+    --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+
+    --shadow-soft: 0 1px 0 hsl(var(--ink) / 0.04);
+
+    /* Sidebar (kept) */
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 95 38% 10%;
+    --foreground: 55 35% 95%;
+    --card: 95 38% 14%;
+    --card-foreground: 55 35% 95%;
+    --popover: 95 38% 14%;
+    --popover-foreground: 55 35% 95%;
+    --primary: 70 38% 52%;
+    --primary-foreground: 95 38% 10%;
+    --secondary: 285 18% 70%;
+    --secondary-foreground: 95 38% 10%;
+    --muted: 95 12% 20%;
+    --muted-foreground: 55 20% 72%;
+    --accent: 285 22% 28%;
+    --accent-foreground: 55 35% 95%;
+    --destructive: 0 62% 40%;
+    --destructive-foreground: 55 35% 95%;
+    --border: 95 12% 24%;
+    --input: 95 12% 24%;
+    --ring: 70 38% 52%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: var(--font-sans);
+    font-size: 16px;
+    line-height: 1.6;
+    font-feature-settings: 'ss01', 'cv11';
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-serif);
+    @apply font-normal tracking-tight;
+    line-height: 1.05;
+    letter-spacing: -0.015em;
+  }
+
+  ::selection {
+    background: hsl(var(--mustard));
+    color: hsl(var(--ink));
+  }
+}
+
+@layer utilities {
+  .font-serif { font-family: var(--font-serif); }
+  .font-sans  { font-family: var(--font-sans); }
+  .font-mono  { font-family: var(--font-mono); }
+
+  .text-balance { text-wrap: balance; }
+
+  /* Color block backgrounds */
+  .bg-mustard       { background-color: hsl(var(--mustard)); }
+  .bg-mustard-deep  { background-color: hsl(var(--mustard-deep)); }
+  .bg-lavender      { background-color: hsl(var(--lavender)); }
+  .bg-lavender-deep { background-color: hsl(var(--lavender-deep)); }
+  .bg-buttercream   { background-color: hsl(var(--buttercream)); }
+  .bg-sage-mist     { background-color: hsl(var(--sage-mist)); }
+  .bg-paper         { background-color: hsl(var(--paper)); }
+  .bg-paper-deep    { background-color: hsl(var(--paper-deep)); }
+  .bg-ink           { background-color: hsl(var(--ink)); }
+  .bg-magenta       { background-color: hsl(var(--magenta)); }
+
+  .text-ink     { color: hsl(var(--ink)); }
+  .text-paper   { color: hsl(var(--paper)); }
+  .text-magenta { color: hsl(var(--magenta)); }
+  .text-mustard { color: hsl(var(--mustard-deep)); }
+
+  .border-ink   { border-color: hsl(var(--ink)); }
+  .border-rule  { border-color: hsl(var(--rule)); }
+
+  /* Hairline divider */
+  .rule-top    { border-top: 1px solid hsl(var(--ink) / 0.85); }
+  .rule-bottom { border-bottom: 1px solid hsl(var(--ink) / 0.85); }
+}
+
+@layer components {
+  .section-container {
+    @apply max-w-[1320px] mx-auto px-6 lg:px-10;
+  }
+
+  .heading-display {
+    @apply font-serif text-5xl md:text-6xl lg:text-7xl xl:text-[5.25rem] leading-[1.02] tracking-[-0.02em];
+  }
+
+  .heading-section {
+    @apply font-serif text-4xl md:text-5xl lg:text-[3.25rem] leading-[1.05] tracking-[-0.018em];
+  }
+
+  .heading-subsection {
+    @apply font-serif text-xl md:text-2xl leading-tight;
+  }
+
+  .body-large {
+    @apply text-lg md:text-xl leading-[1.55];
+  }
+
+  .body-base {
+    @apply text-base leading-relaxed;
+  }
+
+  .label-small {
+    @apply font-mono text-[11px] uppercase tracking-[0.18em] font-medium;
+  }
+
+  .editorial-link {
+    @apply inline-flex items-center gap-2 border-b border-ink pb-0.5 text-ink hover:gap-3 transition-all;
+  }
+}

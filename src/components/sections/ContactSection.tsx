@@ -18,11 +18,11 @@ export const ContactSection = () => {
             </p>
 
             <a
-              href="mailto:contact@olive-tree-consulting.com"
+              href="mailto:contact@palatineadvisory.com"
               className="group inline-flex flex-wrap items-baseline gap-x-4 gap-y-2 border-b border-paper/40 hover:border-mustard pb-3 max-w-full"
             >
               <span className="font-serif text-xl sm:text-2xl lg:text-3xl text-paper group-hover:text-mustard transition-colors break-words min-w-0">
-                contact@olive-tree-consulting.com
+                contact@palatineadvisory.com
               </span>
               <ArrowUpRight className="h-5 w-5 text-paper group-hover:text-mustard group-hover:rotate-45 transition-all flex-shrink-0" strokeWidth={1.5} />
             </a>
@@ -42,8 +42,7 @@ export const ContactSection = () => {
             <div className="border border-paper/20 p-8 lg:p-10">
               <p className="label-small text-paper/50 mb-6">Office</p>
               <address className="not-italic font-serif text-2xl text-paper leading-snug mb-8">
-                Olive Tree<br />
-                Consulting Group<br />
+                Palatine Advisory<br />
                 <span className="text-paper/70">Via Savoia, 78</span><br />
                 <span className="text-paper/70">00198 Roma</span>
               </address>

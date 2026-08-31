@@ -7,12 +7,12 @@ const LegalNotice = () => {
   return (
     <>
       <Helmet>
-        <title>Legal Notice | Olive Tree Consulting Group</title>
+        <title>Legal Notice | Palatine Advisory</title>
         <meta
           name="description"
-          content="Imprint and legal information for Olive Tree Consulting Group, a management advisory firm based in Roma."
+          content="Imprint and legal information for Palatine Advisory, a management advisory firm based in Roma."
         />
-        <link rel="canonical" href="https://olive-tree-consulting.com/legal-notice" />
+        <link rel="canonical" href="https://palatineadvisory.com/legal-notice" />
       </Helmet>
 
       <div className="min-h-screen bg-paper">
@@ -35,7 +35,7 @@ const LegalNotice = () => {
 
                   <Section n="01" title="The firm">
                     <p>
-                      This website is operated by <strong>Olive Tree Consulting Group</strong>,
+                      This website is operated by <strong>Palatine Advisory</strong>,
                       a management advisory practice working with leadership
                       teams on decisions, responsibilities, meetings, priorities,
                       and follow-through.
@@ -53,10 +53,10 @@ const LegalNotice = () => {
                     <p>
                       General correspondence:{' '}
                       <a
-                        href="mailto:contact@olive-tree-consulting.com"
+                        href="mailto:contact@palatineadvisory.com"
                         className="underline underline-offset-2"
                       >
-                        contact@olive-tree-consulting.com
+                        contact@palatineadvisory.com
                       </a>
                     </p>
                     <p>
@@ -103,7 +103,7 @@ const LegalNotice = () => {
 
                   <Section n="07" title="Intellectual property">
                     <p>
-                      The name <em>Olive Tree Consulting Group</em>, the
+                      The name <em>Palatine Advisory</em>, the
                       firm's marks, the visual identity of this website,
                       and the editorial content published on it are
                       protected. Reproduction, redistribution, framing,
@@ -143,10 +143,10 @@ const LegalNotice = () => {
                       site, a broken link, or content that you believe
                       infringes a third-party right, please write to{' '}
                       <a
-                        href="mailto:contact@olive-tree-consulting.com"
+                        href="mailto:contact@palatineadvisory.com"
                         className="underline underline-offset-2"
                       >
-                        contact@olive-tree-consulting.com
+                        contact@palatineadvisory.com
                       </a>{' '}
                       with a description and, where applicable, supporting
                       references. The firm reviews such notices promptly.

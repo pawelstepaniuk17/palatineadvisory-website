@@ -26,7 +26,6 @@ const navLinks: NavItem[] = [
 ];
 
 export const Navigation = () => {
-  const [bannerOpen, setBannerOpen] = useState(true);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [openMenu, setOpenMenu] = useState<string | null>(null);
   const location = useLocation();
@@ -42,40 +41,17 @@ export const Navigation = () => {
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-paper">
-      {/* Announcement banner */}
-      {bannerOpen && (
-        <div className="bg-lavender border-b border-ink/85">
-          <div className="flex items-center min-h-[44px]">
-            <div className="hidden lg:block w-[112px] flex-shrink-0 border-r border-ink/85 self-stretch" />
-            <div className="flex-1 px-5 lg:px-8 py-2.5 text-sm text-ink">
-              <span className="font-semibold">A note before writing.</span>{' '}
-              <Link to="/contact" className="underline underline-offset-2 hover:text-ink/70">
-                A short description of the recurring issue is the most useful place to begin
-              </Link>
-              .
-            </div>
-            <button
-              onClick={() => setBannerOpen(false)}
-              aria-label="Dismiss"
-              className="px-4 lg:px-5 py-3 text-ink hover:text-ink/60 border-l border-ink/85 self-stretch flex items-center"
-            >
-              <X className="h-4 w-4" strokeWidth={1.5} />
-            </button>
-          </div>
-        </div>
-      )}
-
       {/* Main nav row */}
       <div className="border-b border-ink/85 bg-paper">
         <div className="flex items-stretch min-h-[68px] lg:min-h-[76px]">
           <Link
             to="/"
             className="flex items-center justify-center w-[88px] lg:w-[112px] flex-shrink-0 border-r border-ink/85 bg-paper hover:bg-buttercream/60 transition-colors"
-            aria-label="Olive Tree Consulting Group, home"
+            aria-label="Palatine Advisory, home"
           >
             <img
               src={logo}
-              alt="Olive Tree Consulting Group"
+              alt="Palatine Advisory"
               className="h-12 w-12 lg:h-14 lg:w-14 object-contain"
             />
           </Link>
@@ -118,8 +94,7 @@ export const Navigation = () => {
           {/* Mobile wordmark */}
           <div className="lg:hidden flex-1 flex items-center px-5">
             <Link to="/" className="font-serif text-base text-ink leading-tight">
-              Olive Tree<br />
-              <span className="text-ink/60 text-sm">Consulting Group</span>
+              Palatine Advisory
             </Link>
           </div>
 

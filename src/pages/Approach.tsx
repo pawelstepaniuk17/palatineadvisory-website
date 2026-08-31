@@ -55,9 +55,9 @@ const Approach = () => {
   return (
     <>
       <Helmet>
-        <title>How We Work | Olive Tree Consulting Group</title>
-        <meta name="description" content="Olive Tree uses a simple advisory process. We look at how the work currently moves, make the unclear parts visible, and help the team put a cleaner pattern in place." />
-        <link rel="canonical" href="https://olive-tree-consulting.com/approach" />
+        <title>How We Work | Palatine Advisory</title>
+        <meta name="description" content="Palatine Advisory uses a simple advisory process. We look at how the work currently moves, make the unclear parts visible, and help the team put a cleaner pattern in place." />
+        <link rel="canonical" href="https://palatineadvisory.com/approach" />
       </Helmet>
 
       <div className="min-h-screen bg-paper">
@@ -66,7 +66,7 @@ const Approach = () => {
           <PageHeader
             eyebrow="§ Approach"
             title="How we work"
-            lede="Olive Tree uses a simple advisory process. We look at how the work currently moves, make the unclear parts visible, and help the team put a cleaner pattern in place."
+            lede="Palatine Advisory uses a simple advisory process. We look at how the work currently moves, make the unclear parts visible, and help the team put a cleaner pattern in place."
             background="lavender"
           />
 

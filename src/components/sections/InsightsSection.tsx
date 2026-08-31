@@ -25,13 +25,13 @@ export const InsightsSection = () => {
             <p className="body-large text-ink/80 max-w-xl mb-10">
               Send a short note about the management issue that keeps
               returning. The first conversation is used to understand
-              whether Olive Tree is the right fit.
+              whether Palatine Advisory is the right fit.
             </p>
             <button
               onClick={() => scrollTo('#contact')}
               className="group inline-flex items-center gap-3 font-mono text-[11px] uppercase tracking-[0.2em] text-ink border-b border-ink/30 pb-2 hover:gap-5 transition-all"
             >
-              <span>Contact Olive Tree</span>
+              <span>Contact Palatine Advisory</span>
               <ArrowUpRight className="h-4 w-4" strokeWidth={1.5} />
             </button>
           </div>

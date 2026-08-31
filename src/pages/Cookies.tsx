@@ -8,9 +8,9 @@ const Cookies = () => {
   return (
     <>
       <Helmet>
-        <title>Cookie Notice | Olive Tree Consulting Group</title>
-        <meta name="description" content="How Olive Tree Consulting Group uses cookies and similar technologies, and how you can manage your preferences." />
-        <link rel="canonical" href="https://olive-tree-consulting.com/cookies" />
+        <title>Cookie Notice | Palatine Advisory</title>
+        <meta name="description" content="How Palatine Advisory uses cookies and similar technologies, and how you can manage your preferences." />
+        <link rel="canonical" href="https://palatineadvisory.com/cookies" />
       </Helmet>
 
       <div className="min-h-screen bg-paper">
@@ -85,8 +85,8 @@ const Cookies = () => {
                       Cookies that involve personal data are also covered by our{' '}
                       <a href="/privacy" className="underline underline-offset-2">Privacy Policy</a>.
                       Questions may be addressed to{' '}
-                      <a href="mailto:contact@olive-tree-consulting.com" className="underline underline-offset-2">
-                        contact@olive-tree-consulting.com
+                      <a href="mailto:contact@palatineadvisory.com" className="underline underline-offset-2">
+                        contact@palatineadvisory.com
                       </a>.
                     </p>
                   </Section>

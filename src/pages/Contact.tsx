@@ -24,9 +24,9 @@ const Contact = () => {
   return (
     <>
       <Helmet>
-        <title>Contact | Olive Tree Consulting Group</title>
+        <title>Contact | Palatine Advisory</title>
         <meta name="description" content="Start with the issue. A useful first message describes the management issue that keeps returning and what makes it difficult to settle." />
-        <link rel="canonical" href="https://olive-tree-consulting.com/contact" />
+        <link rel="canonical" href="https://palatineadvisory.com/contact" />
       </Helmet>
 
       <div className="min-h-screen bg-paper">
@@ -116,7 +116,7 @@ const Contact = () => {
                           console.error(err);
                           toast({
                             title: 'Could not send',
-                            description: 'Please try again or write to contact@olive-tree-consulting.com',
+                            description: 'Please try again or write to contact@palatineadvisory.com',
                             variant: 'destructive',
                           });
                         } finally {
@@ -152,7 +152,7 @@ const Contact = () => {
                         <span className="font-mono text-[11px] uppercase tracking-[0.2em]">{submitting ? 'Sending…' : 'Send inquiry'}</span>
                         <ArrowUpRight className="h-4 w-4 group-hover:rotate-45 transition-transform" strokeWidth={1.5} />
                       </button>
-                      <p className="text-xs text-ink/55 max-w-md">Your note is read by Olive Tree directly. We do not share inquiries with third parties and do not add senders to any mailing list without explicit consent.</p>
+                      <p className="text-xs text-ink/55 max-w-md">Your note is read by Palatine Advisory directly. We do not share inquiries with third parties and do not add senders to any mailing list without explicit consent.</p>
                     </form>
                   )}
                 </div>
@@ -162,8 +162,8 @@ const Contact = () => {
                   <div className="border border-ink/30 bg-buttercream/40 p-8">
                     <p className="label-small text-ink/55 mb-5">Direct line</p>
                     <p className="font-mono text-[10px] uppercase tracking-[0.2em] text-ink/55 mb-1">Email</p>
-                    <a href="mailto:contact@olive-tree-consulting.com" className="font-serif text-ink hover:underline underline-offset-2 break-words">
-                      contact@olive-tree-consulting.com
+                    <a href="mailto:contact@palatineadvisory.com" className="font-serif text-ink hover:underline underline-offset-2 break-words">
+                      contact@palatineadvisory.com
                     </a>
                     <div className="mt-6">
                       <p className="font-mono text-[10px] uppercase tracking-[0.2em] text-ink/55 mb-1">Telephone</p>
@@ -176,8 +176,7 @@ const Contact = () => {
                   <div className="border border-ink/30 p-8">
                     <p className="label-small text-ink/55 mb-5">Office</p>
                     <address className="not-italic font-serif text-xl text-ink leading-snug mb-6">
-                      Olive Tree<br />
-                      Consulting Group<br />
+                      Palatine Advisory<br />
                       <span className="text-ink/65 text-base">Via Savoia, 78</span><br />
                       <span className="text-ink/65 text-base">00198 Roma</span>
                     </address>

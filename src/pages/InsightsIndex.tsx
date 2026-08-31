@@ -98,9 +98,9 @@ const InsightsIndex = () => {
   return (
     <>
       <Helmet>
-        <title>Notes on management work | Olive Tree Consulting Group</title>
-        <meta name="description" content="Short notes on the ordinary management patterns that make leadership work easier or harder. Olive Tree publishes selectively." />
-        <link rel="canonical" href="https://olive-tree-consulting.com/insights" />
+        <title>Notes on management work | Palatine Advisory</title>
+        <meta name="description" content="Short notes on the ordinary management patterns that make leadership work easier or harder. Palatine Advisory publishes selectively." />
+        <link rel="canonical" href="https://palatineadvisory.com/insights" />
       </Helmet>
 
       <div className="min-h-screen bg-paper">
@@ -145,7 +145,7 @@ const InsightsIndex = () => {
                           {a.readingTime}
                         </p>
                         <p className="font-mono text-[10px] uppercase tracking-[0.2em] text-ink/45">
-                          By Olive Tree
+                          By Palatine Advisory
                         </p>
                       </div>
                       <div className="lg:col-span-8 lg:col-start-5">
@@ -177,7 +177,7 @@ const InsightsIndex = () => {
                 </div>
                 <div className="lg:col-span-8 lg:col-start-5">
                   <p className="font-serif text-2xl lg:text-[1.65rem] text-ink/85 leading-snug max-w-2xl">
-                    Olive Tree publishes selectively. A short useful note is better than regular content with nothing specific to say.
+                    Palatine Advisory publishes selectively. A short useful note is better than regular content with nothing specific to say.
                   </p>
                 </div>
               </div>

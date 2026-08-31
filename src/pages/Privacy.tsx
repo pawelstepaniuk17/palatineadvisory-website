@@ -7,9 +7,9 @@ const Privacy = () => {
   return (
     <>
       <Helmet>
-        <title>Privacy Policy | Olive Tree Consulting Group</title>
-        <meta name="description" content="How Olive Tree Consulting Group collects, uses, and protects personal information in accordance with the GDPR." />
-        <link rel="canonical" href="https://olive-tree-consulting.com/privacy" />
+        <title>Privacy Policy | Palatine Advisory</title>
+        <meta name="description" content="How Palatine Advisory collects, uses, and protects personal information in accordance with the GDPR." />
+        <link rel="canonical" href="https://palatineadvisory.com/privacy" />
       </Helmet>
 
       <div className="min-h-screen bg-paper">
@@ -32,12 +32,12 @@ const Privacy = () => {
 
                   <Section n="01" title="Data Controller">
                     <p>
-                      Olive Tree Consulting Group ("we", "us", "the firm") is the
+                      Palatine Advisory ("we", "us", "the firm") is the
                       data controller of personal information processed through this
                       website and through correspondence initiated with us. You may
                       reach the controller at{' '}
-                      <a href="mailto:contact@olive-tree-consulting.com" className="underline underline-offset-2">
-                        contact@olive-tree-consulting.com
+                      <a href="mailto:contact@palatineadvisory.com" className="underline underline-offset-2">
+                        contact@palatineadvisory.com
                       </a>{' '}
                       or by post at Via Savoia, 78, 00198 Roma.
                     </p>
@@ -116,8 +116,8 @@ const Privacy = () => {
                     </ul>
                     <p>
                       Requests may be addressed to{' '}
-                      <a href="mailto:contact@olive-tree-consulting.com" className="underline underline-offset-2">
-                        contact@olive-tree-consulting.com
+                      <a href="mailto:contact@palatineadvisory.com" className="underline underline-offset-2">
+                        contact@palatineadvisory.com
                       </a>. We respond within thirty days.
                     </p>
                   </Section>

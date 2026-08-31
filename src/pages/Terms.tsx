@@ -7,9 +7,9 @@ const Terms = () => {
   return (
     <>
       <Helmet>
-        <title>Terms of Use | Olive Tree Consulting Group</title>
-        <meta name="description" content="Terms governing access to and use of the Olive Tree Consulting Group website." />
-        <link rel="canonical" href="https://olive-tree-consulting.com/terms" />
+        <title>Terms of Use | Palatine Advisory</title>
+        <meta name="description" content="Terms governing access to and use of the Palatine Advisory website." />
+        <link rel="canonical" href="https://palatineadvisory.com/terms" />
       </Helmet>
 
       <div className="min-h-screen bg-paper">
@@ -32,7 +32,7 @@ const Terms = () => {
 
                   <Section n="01" title="The website">
                     <p>
-                      This website is operated by Olive Tree Consulting Group,
+                      This website is operated by Palatine Advisory,
                       with registered address at Via Savoia, 78, 00198 Roma. The site
                       provides general information about the firm and its work.
                     </p>
@@ -61,9 +61,9 @@ const Terms = () => {
                   <Section n="04" title="Intellectual property">
                     <p>
                       All text, images, diagrams, marks, and design elements on
-                      this site are the property of Olive Tree Consulting Group
-                      or of identified contributors. The name "Olive Tree
-                      Consulting Group", the firm's marks, and the visual
+                      this site are the property of Palatine Advisory
+                      or of identified contributors. The name "Palatine
+                      Advisory", the firm's marks, and the visual
                       identity are protected.
                     </p>
                   </Section>
@@ -117,8 +117,8 @@ const Terms = () => {
                   <Section n="10" title="Contact">
                     <p>
                       Questions concerning these terms may be addressed to{' '}
-                      <a href="mailto:contact@olive-tree-consulting.com" className="underline underline-offset-2">
-                        contact@olive-tree-consulting.com
+                      <a href="mailto:contact@palatineadvisory.com" className="underline underline-offset-2">
+                        contact@palatineadvisory.com
                       </a>.
                     </p>
                   </Section>

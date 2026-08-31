@@ -26,7 +26,7 @@ const Contact = () => {
       <Helmet>
         <title>Contact | Olive Tree Consulting Group</title>
         <meta name="description" content="Start with the issue. A useful first message describes the management issue that keeps returning and what makes it difficult to settle." />
-        <link rel="canonical" href="https://olive-tree-consulting.com/contact" />
+        <link rel="canonical" href="https://palatineadvisory.com/contact" />
       </Helmet>
 
       <div className="min-h-screen bg-paper">
@@ -116,7 +116,7 @@ const Contact = () => {
                           console.error(err);
                           toast({
                             title: 'Could not send',
-                            description: 'Please try again or write to contact@olive-tree-consulting.com',
+                            description: 'Please try again or write to contact@palatineadvisory.com',
                             variant: 'destructive',
                           });
                         } finally {
@@ -162,8 +162,8 @@ const Contact = () => {
                   <div className="border border-ink/30 bg-buttercream/40 p-8">
                     <p className="label-small text-ink/55 mb-5">Direct line</p>
                     <p className="font-mono text-[10px] uppercase tracking-[0.2em] text-ink/55 mb-1">Email</p>
-                    <a href="mailto:contact@olive-tree-consulting.com" className="font-serif text-ink hover:underline underline-offset-2 break-words">
-                      contact@olive-tree-consulting.com
+                    <a href="mailto:contact@palatineadvisory.com" className="font-serif text-ink hover:underline underline-offset-2 break-words">
+                      contact@palatineadvisory.com
                     </a>
                     <div className="mt-6">
                       <p className="font-mono text-[10px] uppercase tracking-[0.2em] text-ink/55 mb-1">Telephone</p>

@@ -57,7 +57,7 @@ const Approach = () => {
       <Helmet>
         <title>How We Work | Olive Tree Consulting Group</title>
         <meta name="description" content="Olive Tree uses a simple advisory process. We look at how the work currently moves, make the unclear parts visible, and help the team put a cleaner pattern in place." />
-        <link rel="canonical" href="https://olive-tree-consulting.com/approach" />
+        <link rel="canonical" href="https://palatineadvisory.com/approach" />
       </Helmet>
 
       <div className="min-h-screen bg-paper">

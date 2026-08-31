@@ -12,7 +12,7 @@ const LegalNotice = () => {
           name="description"
           content="Imprint and legal information for Olive Tree Consulting Group, a management advisory firm based in Roma."
         />
-        <link rel="canonical" href="https://olive-tree-consulting.com/legal-notice" />
+        <link rel="canonical" href="https://palatineadvisory.com/legal-notice" />
       </Helmet>
 
       <div className="min-h-screen bg-paper">
@@ -53,10 +53,10 @@ const LegalNotice = () => {
                     <p>
                       General correspondence:{' '}
                       <a
-                        href="mailto:contact@olive-tree-consulting.com"
+                        href="mailto:contact@palatineadvisory.com"
                         className="underline underline-offset-2"
                       >
-                        contact@olive-tree-consulting.com
+                        contact@palatineadvisory.com
                       </a>
                     </p>
                     <p>
@@ -143,10 +143,10 @@ const LegalNotice = () => {
                       site, a broken link, or content that you believe
                       infringes a third-party right, please write to{' '}
                       <a
-                        href="mailto:contact@olive-tree-consulting.com"
+                        href="mailto:contact@palatineadvisory.com"
                         className="underline underline-offset-2"
                       >
-                        contact@olive-tree-consulting.com
+                        contact@palatineadvisory.com
                       </a>{' '}
                       with a description and, where applicable, supporting
                       references. The firm reviews such notices promptly.

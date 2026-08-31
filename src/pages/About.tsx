@@ -40,7 +40,7 @@ const About = () => {
           name="description"
           content="Olive Tree Consulting Group is a small management advisory firm focused on decisions, responsibilities, priorities, and follow-through inside leadership teams."
         />
-        <link rel="canonical" href="https://olive-tree-consulting.com/about" />
+        <link rel="canonical" href="https://palatineadvisory.com/about" />
       </Helmet>
 
       <div className="min-h-screen bg-paper">

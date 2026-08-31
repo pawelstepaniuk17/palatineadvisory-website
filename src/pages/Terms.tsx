@@ -9,7 +9,7 @@ const Terms = () => {
       <Helmet>
         <title>Terms of Use | Olive Tree Consulting Group</title>
         <meta name="description" content="Terms governing access to and use of the Olive Tree Consulting Group website." />
-        <link rel="canonical" href="https://olive-tree-consulting.com/terms" />
+        <link rel="canonical" href="https://palatineadvisory.com/terms" />
       </Helmet>
 
       <div className="min-h-screen bg-paper">
@@ -117,8 +117,8 @@ const Terms = () => {
                   <Section n="10" title="Contact">
                     <p>
                       Questions concerning these terms may be addressed to{' '}
-                      <a href="mailto:contact@olive-tree-consulting.com" className="underline underline-offset-2">
-                        contact@olive-tree-consulting.com
+                      <a href="mailto:contact@palatineadvisory.com" className="underline underline-offset-2">
+                        contact@palatineadvisory.com
                       </a>.
                     </p>
                   </Section>

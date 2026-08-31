@@ -122,7 +122,7 @@ const PracticeIndex = () => {
       <Helmet>
         <title>Practice Areas | Olive Tree Consulting Group</title>
         <meta name="description" content="Olive Tree works on recurring management issues inside leadership teams: decision habits, responsibility and handoffs, leadership meeting rhythm, priority movement, and management reset." />
-        <link rel="canonical" href="https://olive-tree-consulting.com/practice" />
+        <link rel="canonical" href="https://palatineadvisory.com/practice" />
       </Helmet>
 
       <div className="min-h-screen bg-paper">

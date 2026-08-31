@@ -2,54 +2,54 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Olive Tree Consulting Group, Editorial Design System
-   Mustard, lavender, sage, magenta, flat color blocks, generous whitespace.
-   All colors in HSL.
+/* Palatine Advisory, Editorial Design System
+   Light, airy accents: cornflower blue, pale sky, soft aqua, slate.
+   Flat color blocks, generous whitespace. All colors in HSL.
 */
 
 @layer base {
   :root {
-    /* Palette, drawn from the olive tree logo */
-    --mustard: 70 38% 52%;          /* olive-yellow fruit */
-    --mustard-deep: 72 42% 38%;     /* deeper olive */
-    --lavender: 285 18% 84%;        /* dusty aubergine wash */
-    --lavender-deep: 282 20% 64%;   /* aubergine olive */
-    --buttercream: 56 55% 88%;      /* pale olive cream */
-    --sage-mist: 95 14% 76%;        /* silvery sage leaf */
-    --magenta: 285 32% 32%;         /* deep aubergine accent */
-    --ink: 95 38% 18%;              /* dark olive trunk */
-    --paper: 55 35% 95%;            /* warm cream */
-    --paper-deep: 55 22% 90%;
-    --rule: 95 10% 76%;
+    /* Fresh, light accent palette */
+    --mustard: 210 60% 68%;         /* soft cornflower blue, primary accent */
+    --mustard-deep: 213 54% 54%;    /* deeper blue, hover */
+    --lavender: 205 52% 89%;        /* airy pale sky wash */
+    --lavender-deep: 210 34% 72%;   /* muted steel blue */
+    --buttercream: 200 40% 93%;     /* cool pale wash */
+    --sage-mist: 186 26% 82%;       /* soft aqua-grey */
+    --magenta: 212 46% 38%;         /* deep slate-blue accent */
+    --ink: 214 32% 18%;             /* deep slate ink */
+    --paper: 40 30% 97%;            /* soft warm ivory */
+    --paper-deep: 40 20% 93%;
+    --rule: 210 16% 80%;
 
     /* Semantic mapping */
-    --background: 55 35% 95%;
-    --foreground: 95 38% 18%;
+    --background: 40 30% 97%;
+    --foreground: 214 32% 18%;
 
     --card: 0 0% 100%;
-    --card-foreground: 95 38% 18%;
+    --card-foreground: 214 32% 18%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 95 38% 18%;
+    --popover-foreground: 214 32% 18%;
 
-    --primary: 95 38% 18%;
-    --primary-foreground: 55 35% 95%;
+    --primary: 214 32% 18%;
+    --primary-foreground: 40 30% 97%;
 
-    --secondary: 70 38% 52%;
-    --secondary-foreground: 95 38% 18%;
+    --secondary: 210 60% 68%;
+    --secondary-foreground: 214 32% 18%;
 
-    --muted: 55 22% 90%;
-    --muted-foreground: 95 12% 36%;
+    --muted: 40 20% 93%;
+    --muted-foreground: 214 14% 40%;
 
-    --accent: 285 18% 84%;
-    --accent-foreground: 95 38% 18%;
+    --accent: 205 52% 89%;
+    --accent-foreground: 214 32% 18%;
 
     --destructive: 0 70% 45%;
-    --destructive-foreground: 55 35% 95%;
+    --destructive-foreground: 40 30% 97%;
 
-    --border: 95 10% 76%;
-    --input: 95 10% 76%;
-    --ring: 95 38% 18%;
+    --border: 210 16% 80%;
+    --input: 210 16% 80%;
+    --ring: 214 32% 18%;
 
     /* Editorial: flat radii */
     --radius: 0.25rem;

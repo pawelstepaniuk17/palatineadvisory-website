@@ -40,7 +40,7 @@ const Industries = () => {
       <Helmet>
         <title>Where this work fits | Olive Tree Consulting Group</title>
         <meta name="description" content="Olive Tree is not built around one industry. The work fits teams where management habits have not kept up with the way the business now operates." />
-        <link rel="canonical" href="https://olive-tree-consulting.com/industries" />
+        <link rel="canonical" href="https://palatineadvisory.com/industries" />
       </Helmet>
 
       <div className="min-h-screen bg-paper">

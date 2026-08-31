@@ -50,7 +50,7 @@ Deno.serve(async (req) => {
       });
     }
 
-    const TO = "contact@olive-tree-consulting.com";
+    const TO = "contact@palatineadvisory.com";
     // Until the user verifies their domain in Resend, sandbox-only sender works.
     const FROM = "Olive Tree Website <onboarding@resend.dev>";
 

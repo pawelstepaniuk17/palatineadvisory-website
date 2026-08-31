@@ -26,7 +26,6 @@ const navLinks: NavItem[] = [
 ];
 
 export const Navigation = () => {
-  const [bannerOpen, setBannerOpen] = useState(true);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [openMenu, setOpenMenu] = useState<string | null>(null);
   const location = useLocation();
@@ -42,29 +41,6 @@ export const Navigation = () => {
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-paper">
-      {/* Announcement banner */}
-      {bannerOpen && (
-        <div className="bg-lavender border-b border-ink/85">
-          <div className="flex items-center min-h-[44px]">
-            <div className="hidden lg:block w-[112px] flex-shrink-0 border-r border-ink/85 self-stretch" />
-            <div className="flex-1 px-5 lg:px-8 py-2.5 text-sm text-ink">
-              <span className="font-semibold">A note before writing.</span>{' '}
-              <Link to="/contact" className="underline underline-offset-2 hover:text-ink/70">
-                A short description of the recurring issue is the most useful place to begin
-              </Link>
-              .
-            </div>
-            <button
-              onClick={() => setBannerOpen(false)}
-              aria-label="Dismiss"
-              className="px-4 lg:px-5 py-3 text-ink hover:text-ink/60 border-l border-ink/85 self-stretch flex items-center"
-            >
-              <X className="h-4 w-4" strokeWidth={1.5} />
-            </button>
-          </div>
-        </div>
-      )}
-
       {/* Main nav row */}
       <div className="border-b border-ink/85 bg-paper">
         <div className="flex items-stretch min-h-[68px] lg:min-h-[76px]">

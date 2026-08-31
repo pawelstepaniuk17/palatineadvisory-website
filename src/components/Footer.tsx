@@ -17,7 +17,7 @@ const columnA: LinkGroup[] = [
   {
     heading: 'Reach us',
     items: [
-      { label: 'contact@olive-tree-consulting.com', to: '/contact' },
+      { label: 'contact@palatineadvisory.com', to: '/contact' },
       { label: '+39 350 923 0062', to: '/contact' },
       { label: 'Via Savoia, 78, 00198 Roma', to: '/contact' },
     ],

@@ -100,7 +100,7 @@ const InsightsIndex = () => {
       <Helmet>
         <title>Notes on management work | Olive Tree Consulting Group</title>
         <meta name="description" content="Short notes on the ordinary management patterns that make leadership work easier or harder. Olive Tree publishes selectively." />
-        <link rel="canonical" href="https://olive-tree-consulting.com/insights" />
+        <link rel="canonical" href="https://palatineadvisory.com/insights" />
       </Helmet>
 
       <div className="min-h-screen bg-paper">

@@ -19,7 +19,7 @@ const Index = () => {
           name="description"
           content="We help leadership teams make decisions, priorities, and follow-through easier to see and easier to manage."
         />
-        <link rel="canonical" href="https://olive-tree-consulting.com" />
+        <link rel="canonical" href="https://palatineadvisory.com" />
       </Helmet>
 
       <div className="min-h-screen">

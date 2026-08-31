@@ -4,7 +4,7 @@ import Footer from '@/components/Footer';
 import PageHeader from '@/components/PageHeader';
 import Crosslinks from '@/components/Crosslinks';
 import { OrnamentRule } from '@/components/OliveMark';
-import grove from '@/assets/olive-branch-closeup.jpg';
+import grove from '@/assets/office-collaboration.png';
 
 const settings = [
   {
@@ -68,7 +68,7 @@ const Industries = () => {
                 </p>
               </div>
               <div className="lg:col-span-7 relative min-h-[360px] lg:min-h-auto">
-                <img src={grove} alt="Olive branches with silver-green leaves" className="absolute inset-0 w-full h-full object-cover object-center" loading="lazy" width={1024} height={1280} />
+                <img src={grove} alt="A leadership team working through notes together" className="absolute inset-0 w-full h-full object-cover object-center" loading="lazy" width={1024} height={1280} />
               </div>
             </div>
           </section>

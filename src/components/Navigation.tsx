@@ -70,7 +70,7 @@ export const Navigation = () => {
         <div className="flex items-stretch min-h-[68px] lg:min-h-[76px]">
           <Link
             to="/"
-            className="flex items-center justify-center w-[88px] lg:w-[112px] flex-shrink-0 border-r border-ink/85 hover:bg-mustard/60 transition-colors"
+            className="flex items-center justify-center w-[88px] lg:w-[112px] flex-shrink-0 border-r border-ink/85 bg-mustard/70 hover:bg-mustard-deep transition-colors"
             aria-label="Olive Tree Consulting Group, home"
           >
             <img

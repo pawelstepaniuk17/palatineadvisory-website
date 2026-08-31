@@ -1,5 +1,5 @@
 import { ArrowUpRight } from 'lucide-react';
-import painterly from '@/assets/band-texture.png';
+import painterly from '@/assets/painterly-accent.jpg';
 
 export const InsightsSection = () => {
   const scrollTo = (id: string) =>
@@ -29,7 +29,7 @@ export const InsightsSection = () => {
             </p>
             <button
               onClick={() => scrollTo('#contact')}
-              className="group inline-flex items-center gap-3 font-mono text-[11px] uppercase tracking-[0.2em] text-brass border-b border-brass/40 pb-2 hover:gap-5 transition-all"
+              className="group inline-flex items-center gap-3 font-mono text-[11px] uppercase tracking-[0.2em] text-ink border-b border-ink/30 pb-2 hover:gap-5 transition-all"
             >
               <span>Contact Olive Tree</span>
               <ArrowUpRight className="h-4 w-4" strokeWidth={1.5} />

@@ -59,10 +59,6 @@ export default {
         buttercream: "hsl(var(--buttercream))",
         "sage-mist": "hsl(var(--sage-mist))",
         magenta: "hsl(var(--magenta))",
-        brass: {
-          DEFAULT: "hsl(var(--brass))",
-          deep: "hsl(var(--brass-deep))",
-        },
         ink: "hsl(var(--ink))",
         paper: {
           DEFAULT: "hsl(var(--paper))",
@@ -81,7 +77,7 @@ export default {
         },
       },
       fontFamily: {
-        serif: ['Newsreader', 'Fraunces', 'Georgia', 'serif'],
+        serif: ['Fraunces', 'DM Serif Display', 'Georgia', 'serif'],
         sans: ['Inter', 'Source Sans 3', 'system-ui', 'sans-serif'],
         mono: ['JetBrains Mono', 'ui-monospace', 'monospace'],
       },

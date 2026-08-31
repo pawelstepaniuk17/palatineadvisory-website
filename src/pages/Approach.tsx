@@ -4,7 +4,7 @@ import Footer from '@/components/Footer';
 import PageHeader from '@/components/PageHeader';
 import Crosslinks from '@/components/Crosslinks';
 import SectionDivider from '@/components/SectionDivider';
-import desk from '@/assets/boardroom.png';
+import desk from '@/assets/desk-notebook.jpg';
 
 const steps = [
   {
@@ -121,7 +121,7 @@ const Approach = () => {
           {/* What clients receive + image */}
           <section className="grid lg:grid-cols-12 border-b border-ink/85">
             <div className="lg:col-span-5 relative min-h-[460px]">
-              <img src={desk} alt="Senior leaders in discussion around a boardroom table" className="absolute inset-0 w-full h-full object-cover" loading="lazy" width={1280} height={1600} />
+              <img src={desk} alt="A leather notebook on a wooden desk" className="absolute inset-0 w-full h-full object-cover" loading="lazy" width={1280} height={1600} />
             </div>
             <div className="lg:col-span-7 bg-paper px-8 lg:px-14 py-20 border-l border-ink/85">
               <p className="label-small text-ink/60 mb-5">§ What the client receives</p>
@@ -207,7 +207,7 @@ const ProcessDiagram = () => (
       <text x="860" y="305">FIRST CYCLE</text>
     </g>
     {/* Curve */}
-    <path d="M 40 240 C 200 220, 320 160, 450 130 S 720 70, 860 80" stroke="hsl(var(--brass))" strokeWidth="2" />
+    <path d="M 40 240 C 200 220, 320 160, 450 130 S 720 70, 860 80" stroke="hsl(var(--mustard-deep))" strokeWidth="2" />
     {/* Vertical threshold */}
     <line x1="586" y1="40" x2="586" y2="280" strokeDasharray="3 4" stroke="hsl(var(--ink))" strokeOpacity="0.4" />
     {/* Annotations */}
@@ -216,7 +216,7 @@ const ProcessDiagram = () => (
       <text x="610" y="120">the structure is used</text>
     </g>
     {/* Accent dot */}
-    <circle cx="860" cy="80" r="6" fill="hsl(var(--brass))" stroke="hsl(var(--paper))" />
+    <circle cx="860" cy="80" r="6" fill="hsl(var(--mustard))" stroke="hsl(var(--ink))" />
     {/* Top axis label */}
     <g fontFamily="JetBrains Mono, monospace" fontSize="10" letterSpacing="2" fill="hsl(var(--ink))" fillOpacity="0.6">
       <text x="40" y="40">CLARITY OF MANAGEMENT RHYTHM →</text>

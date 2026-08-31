@@ -4,9 +4,9 @@ import Footer from '@/components/Footer';
 import PageHeader from '@/components/PageHeader';
 import Crosslinks from '@/components/Crosslinks';
 import { OliveBranchMark } from '@/components/OliveMark';
-import grove from '@/assets/hero-portrait.png';
+import grove from '@/assets/olive-terraces.jpg';
 
-import courtyard from '@/assets/architecture.png';
+import courtyard from '@/assets/courtyard-arch.jpg';
 
 const expectCards = [
   {
@@ -99,7 +99,7 @@ const About = () => {
               <div className="lg:col-span-7 relative min-h-[420px] lg:min-h-[520px]">
                 <img
                   src={grove}
-                  alt="Two senior advisors reviewing a document together"
+                  alt="Terraced olive grove on a Mediterranean hillside"
                   className="absolute inset-0 w-full h-full object-cover"
                   loading="lazy"
                   width={1280}
@@ -192,7 +192,7 @@ const About = () => {
             <div className="lg:col-span-7 relative min-h-[360px]">
               <img
                 src={courtyard}
-                alt="The stone stair and daylit interior of a historic Roman palazzo"
+                alt="A quiet courtyard arch with an olive tree"
                 className="absolute inset-0 w-full h-full object-cover"
                 loading="lazy"
                 width={1280}

@@ -4,7 +4,7 @@ import { ArrowUpRight } from 'lucide-react';
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
 import PageHeader from '@/components/PageHeader';
-import courtyard from '@/assets/architecture.png';
+import courtyard from '@/assets/courtyard-arch.jpg';
 import { supabase } from '@/integrations/supabase/client';
 import { toast } from '@/hooks/use-toast';
 
@@ -147,7 +147,7 @@ const Contact = () => {
                       <button
                         type="submit"
                         disabled={submitting}
-                        className="inline-flex items-center gap-4 bg-brass text-paper px-7 py-4 hover:bg-brass-deep transition-colors group disabled:opacity-60 disabled:cursor-not-allowed"
+                        className="inline-flex items-center gap-4 bg-ink text-paper px-7 py-4 hover:bg-mustard hover:text-ink transition-colors group disabled:opacity-60 disabled:cursor-not-allowed"
                       >
                         <span className="font-mono text-[11px] uppercase tracking-[0.2em]">{submitting ? 'Sending…' : 'Send inquiry'}</span>
                         <ArrowUpRight className="h-4 w-4 group-hover:rotate-45 transition-transform" strokeWidth={1.5} />
@@ -200,7 +200,7 @@ const Contact = () => {
               </p>
             </div>
             <div className="lg:col-span-7 relative min-h-[360px]">
-              <img src={courtyard} alt="The stone stair and daylit interior of a historic Roman palazzo" className="absolute inset-0 w-full h-full object-cover" loading="lazy" width={1280} height={1600} />
+              <img src={courtyard} alt="A quiet courtyard with an olive tree" className="absolute inset-0 w-full h-full object-cover" loading="lazy" width={1280} height={1600} />
             </div>
           </section>
         </main>

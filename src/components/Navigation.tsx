@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { Menu, X, Search, Plus } from 'lucide-react';
-import logo from '@/assets/logo-mark.png';
+import logo from '@/assets/olive-tree-logo.png';
 
 type SubItem = { label: string; to: string };
 type NavItem = { label: string; to: string; submenu?: SubItem[] };
@@ -41,10 +41,10 @@ export const Navigation = () => {
   const goContact = () => navigate('/contact');
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50">
+    <header className="fixed top-0 left-0 right-0 z-50 bg-paper">
       {/* Announcement banner */}
       {bannerOpen && (
-        <div className="bg-lavender/90 backdrop-blur-md border-b border-ink/85">
+        <div className="bg-lavender border-b border-ink/85">
           <div className="flex items-center min-h-[44px]">
             <div className="hidden lg:block w-[112px] flex-shrink-0 border-r border-ink/85 self-stretch" />
             <div className="flex-1 px-5 lg:px-8 py-2.5 text-sm text-ink">
@@ -66,17 +66,17 @@ export const Navigation = () => {
       )}
 
       {/* Main nav row */}
-      <div className="border-b border-ink/85 bg-paper/80 backdrop-blur-md">
+      <div className="border-b border-ink/85 bg-paper">
         <div className="flex items-stretch min-h-[68px] lg:min-h-[76px]">
           <Link
             to="/"
-            className="flex items-center justify-center w-[88px] lg:w-[112px] flex-shrink-0 border-r border-ink/85 bg-mustard/70 hover:bg-mustard-deep transition-colors"
+            className="flex items-center justify-center w-[88px] lg:w-[112px] flex-shrink-0 border-r border-ink/85 bg-paper hover:bg-buttercream/60 transition-colors"
             aria-label="Olive Tree Consulting Group, home"
           >
             <img
               src={logo}
               alt="Olive Tree Consulting Group"
-              className="h-11 w-11 lg:h-14 lg:w-14 object-contain"
+              className="h-12 w-12 lg:h-14 lg:w-14 object-contain"
             />
           </Link>
 
@@ -132,10 +132,10 @@ export const Navigation = () => {
 
           <button
             onClick={goContact}
-            className="hidden lg:flex items-center justify-center px-10 bg-brass border-l border-ink/85 hover:bg-brass-deep transition-colors group"
+            className="hidden lg:flex items-center justify-center px-10 bg-mustard border-l border-ink/85 hover:bg-mustard-deep transition-colors group"
           >
-            <span className="font-serif text-[17px] text-paper mr-3">Contact</span>
-            <span className="w-1.5 h-1.5 rounded-full bg-paper group-hover:scale-150 transition-transform" />
+            <span className="font-serif text-[17px] text-ink mr-3">Contact</span>
+            <span className="w-1.5 h-1.5 rounded-full bg-ink group-hover:scale-150 transition-transform" />
           </button>
 
           <button
@@ -147,26 +147,26 @@ export const Navigation = () => {
           </button>
         </div>
 
-        {/* Mobile menu — full-screen, fully opaque drawer */}
+        {/* Mobile menu */}
         {isMobileMenuOpen && (
-          <div className="lg:hidden border-t border-ink/85 bg-paper h-[calc(100dvh-68px)] overflow-y-auto flex flex-col">
-            <div className="flex flex-col flex-1">
+          <div className="lg:hidden border-t border-ink/85 bg-paper max-h-[80vh] overflow-y-auto">
+            <div className="flex flex-col">
               {navLinks.map((link) => (
                 <Link
                   key={link.to}
                   to={link.to}
-                  className="px-6 py-6 text-left font-serif text-3xl text-ink border-b border-ink/15 hover:bg-mustard/60 transition-colors"
+                  className="px-6 py-5 text-left font-serif text-2xl text-ink border-b border-ink/15 hover:bg-buttercream/60"
                 >
                   {link.label}
                 </Link>
               ))}
+              <Link
+                to="/contact"
+                className="px-6 py-5 text-left font-serif text-2xl text-ink bg-mustard"
+              >
+                Contact
+              </Link>
             </div>
-            <Link
-              to="/contact"
-              className="px-6 py-6 text-left font-serif text-3xl text-paper bg-brass mt-auto"
-            >
-              Contact
-            </Link>
           </div>
         )}
       </div>

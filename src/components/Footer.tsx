@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { ArrowRight } from 'lucide-react';
-import logo from '@/assets/logo-mark.png';
+import logo from '@/assets/olive-tree-logo.png';
 
 type LinkItem = { label: string; to: string };
 type LinkGroup = { heading: string; items: LinkItem[] };
@@ -135,12 +135,12 @@ export const Footer = () => {
 
               <button
                 type="submit"
-                className="mt-2 inline-flex items-center gap-3 bg-brass text-paper px-7 py-3.5 hover:bg-brass-deep transition-colors group"
+                className="mt-2 inline-flex items-center gap-3 bg-ink text-paper px-7 py-3.5 hover:bg-mustard hover:text-ink transition-colors group"
               >
                 <span className="font-mono text-[11px] uppercase tracking-[0.2em]">
                   Subscribe
                 </span>
-                <span className="w-1.5 h-1.5 rounded-full bg-paper group-hover:scale-150 transition-transform" />
+                <span className="w-1.5 h-1.5 rounded-full bg-paper group-hover:bg-ink transition-colors" />
               </button>
             </form>
 
@@ -177,7 +177,7 @@ export const Footer = () => {
           </div>
           <Link
             to="/contact"
-            className="inline-flex items-center gap-2 bg-brass text-paper px-5 py-2.5 hover:bg-brass-deep transition-colors group"
+            className="inline-flex items-center gap-2 bg-ink text-paper px-5 py-2.5 hover:bg-mustard hover:text-ink transition-colors group"
           >
             <span className="font-mono text-[11px] uppercase tracking-[0.2em]">
               Write to the firm

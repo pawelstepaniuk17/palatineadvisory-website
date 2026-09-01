@@ -9,18 +9,18 @@
 
 @layer base {
   :root {
-    /* Fresh, light accent palette */
-    --mustard: 210 60% 68%;         /* soft cornflower blue, primary accent */
-    --mustard-deep: 213 54% 54%;    /* deeper blue, hover */
-    --lavender: 205 52% 89%;        /* airy pale sky wash */
-    --lavender-deep: 210 34% 72%;   /* muted steel blue */
-    --buttercream: 200 40% 93%;     /* cool pale wash */
-    --sage-mist: 186 26% 82%;       /* soft aqua-grey */
-    --magenta: 212 46% 38%;         /* deep slate-blue accent */
-    --ink: 214 32% 18%;             /* deep slate ink */
-    --paper: 40 30% 97%;            /* soft warm ivory */
+    /* Classical Roman Travertine Bone & Marble Accent Palette */
+    --mustard: 38 28% 82%;         /* warm Roman travertine limestone / marble #DFD6C2 */
+    --mustard-deep: 38 24% 72%;    /* deeper travertine stone, hover #CFBEA4 */
+    --lavender: 36 22% 90%;        /* soft warm Roman bone wash #ECE6DB */
+    --lavender-deep: 36 18% 78%;   /* muted travertine stone */
+    --buttercream: 40 25% 94%;     /* airy Roman marble wash */
+    --sage-mist: 38 18% 84%;       /* soft limestone mist */
+    --magenta: 214 32% 28%;        /* deep classical slate accent */
+    --ink: 214 32% 18%;            /* deep slate ink */
+    --paper: 40 30% 97%;           /* soft warm ivory */
     --paper-deep: 40 20% 93%;
-    --rule: 210 16% 80%;
+    --rule: 38 14% 76%;            /* subtle architectural stone hairline */
 
     /* Semantic mapping */
     --background: 40 30% 97%;
@@ -35,20 +35,20 @@
     --primary: 214 32% 18%;
     --primary-foreground: 40 30% 97%;
 
-    --secondary: 210 60% 68%;
+    --secondary: 38 28% 82%;
     --secondary-foreground: 214 32% 18%;
 
     --muted: 40 20% 93%;
     --muted-foreground: 214 14% 40%;
 
-    --accent: 205 52% 89%;
+    --accent: 36 22% 90%;
     --accent-foreground: 214 32% 18%;
 
     --destructive: 0 70% 45%;
     --destructive-foreground: 40 30% 97%;
 
-    --border: 210 16% 80%;
-    --input: 210 16% 80%;
+    --border: 38 14% 76%;
+    --input: 38 14% 76%;
     --ring: 214 32% 18%;
 
     /* Editorial: flat radii */

@@ -48,7 +48,7 @@ export const HeroSection = () => {
             <div className="bg-paper p-2 shadow-[0_30px_60px_-20px_rgba(0,0,0,0.35)] max-w-[300px] w-full">
               <img
                 src={ancientOlive}
-                alt="Ancient olive tree at golden hour"
+                alt="Palatine Hill morning view overlooking Roman arch and forum"
                 className="w-full aspect-[4/5] object-cover"
                 loading="eager"
                 width={1024}

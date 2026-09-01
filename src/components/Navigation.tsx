@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { Menu, X, Search, Plus } from 'lucide-react';
-import logo from '@/assets/olive-tree-logo.png';
+import logo from '@/assets/palatine-logo.svg';
 
 type SubItem = { label: string; to: string };
 type NavItem = { label: string; to: string; submenu?: SubItem[] };

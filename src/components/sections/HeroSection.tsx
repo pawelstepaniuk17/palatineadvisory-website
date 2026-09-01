@@ -1,6 +1,5 @@
 import { ArrowDown } from 'lucide-react';
-import painterly from '@/assets/painterly-accent.jpg';
-import ancientOlive from '@/assets/ancient-olive-tree.jpg';
+import romanArchHero from '@/assets/palatine-hero-arch.jpg';
 
 export const HeroSection = () => {
   const scrollTo = (id: string) =>
@@ -34,28 +33,16 @@ export const HeroSection = () => {
           </div>
         </div>
 
-        {/* Right painterly + portrait collage */}
-        <div className="lg:col-span-5 relative bg-paper-deep min-h-[78vh] overflow-hidden">
+        {/* Right full-bleed architectural photograph */}
+        <div className="lg:col-span-5 relative min-h-[60vh] lg:min-h-[78vh] overflow-hidden bg-paper-deep border-l border-ink/15">
           <img
-            src={painterly}
-            alt=""
-            className="absolute inset-0 w-full h-full object-cover"
+            src={romanArchHero}
+            alt="Palatine Hill morning view overlooking Roman arch and forum"
+            className="absolute inset-0 w-full h-full object-cover object-center"
             loading="eager"
             width={1280}
-            height={1280}
+            height={1600}
           />
-          <div className="absolute inset-0 flex items-center justify-center p-10 lg:p-14">
-            <div className="bg-paper p-2 shadow-[0_30px_60px_-20px_rgba(0,0,0,0.35)] max-w-[300px] w-full">
-              <img
-                src={ancientOlive}
-                alt="Palatine Hill morning view overlooking Roman arch and forum"
-                className="w-full aspect-[4/5] object-cover"
-                loading="eager"
-                width={1024}
-                height={1280}
-              />
-            </div>
-          </div>
         </div>
       </div>
 

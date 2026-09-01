@@ -1,5 +1,4 @@
 import { ArrowUpRight } from 'lucide-react';
-import painterly from '@/assets/painterly-accent.jpg';
 
 export const InsightsSection = () => {
   const scrollTo = (id: string) =>
@@ -7,13 +6,6 @@ export const InsightsSection = () => {
 
   return (
     <section id="insights" className="bg-paper border-t border-ink/85">
-      {/* Painterly band */}
-      <div
-        className="h-32 lg:h-44 border-b border-ink/85 bg-cover bg-center"
-        style={{ backgroundImage: `url(${painterly})` }}
-        aria-hidden
-      />
-
       {/* Closing CTA */}
       <div className="section-container pt-20 lg:pt-28 pb-20 lg:pb-28">
         <div className="grid lg:grid-cols-12 gap-10">

@@ -1,4 +1,4 @@
-import oliveStill from '@/assets/olive-still-life.jpg';
+import romanBasin from '@/assets/roman-basin-pool.jpg';
 
 const steps = [
   {
@@ -39,8 +39,8 @@ export const IndustriesSection = () => {
           </p>
           <div className="bg-paper border border-ink/15 p-2 max-w-[260px] rotate-[1.5deg] shadow-[0_24px_48px_-20px_rgba(0,0,0,0.3)]">
             <img
-              src={oliveStill}
-              alt="Olives and oil, still life"
+              src={romanBasin}
+              alt="Ancient Roman thermal bath basin with clear mineral water"
               className="w-full aspect-[4/5] object-cover"
               loading="lazy"
               width={1024}

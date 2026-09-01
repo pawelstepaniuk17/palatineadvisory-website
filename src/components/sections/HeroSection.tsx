@@ -6,7 +6,7 @@ export const HeroSection = () => {
     document.querySelector(id)?.scrollIntoView({ behavior: 'smooth' });
 
   return (
-    <section className="pt-[112px] lg:pt-[120px]">
+    <section className="pt-[68px] lg:pt-[76px]">
       {/* Top color-block hero, mustard left, painterly right */}
       <div className="grid lg:grid-cols-12">
         {/* Left mustard block */}

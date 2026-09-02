@@ -50,8 +50,8 @@ Deno.serve(async (req) => {
       });
     }
 
-    const TO = "contact@palatineadvisory.com";
-    const FROM = "Palatine Advisory <contact@palatineadvisory.com>";
+    const TO = "contact@ridge-partners.ch";
+    const FROM = "Palatine Advisory <contact@ridge-partners.ch>";
 
     const html = `
       <h2>New inquiry from the website</h2>

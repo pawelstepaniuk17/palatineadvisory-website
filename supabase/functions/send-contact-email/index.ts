@@ -51,8 +51,7 @@ Deno.serve(async (req) => {
     }
 
     const TO = "contact@palatineadvisory.com";
-    // Until the user verifies their domain in Resend, sandbox-only sender works.
-    const FROM = "Palatine Advisory Website <onboarding@resend.dev>";
+    const FROM = "Palatine Advisory <contact@palatineadvisory.com>";
 
     const html = `
       <h2>New inquiry from the website</h2>

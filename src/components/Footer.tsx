@@ -57,7 +57,6 @@ const columnB: LinkGroup[] = [
     items: [
       { label: 'About', to: '/about' },
       { label: 'Approach', to: '/approach' },
-      { label: 'Team', to: '/about#team' },
       { label: 'Contact', to: '/contact' },
     ],
   },

@@ -212,12 +212,12 @@ const About = () => {
             </div>
           </section>
 
-          {/* Team — A focused advisory practice */}
-          <section id="team" className="bg-paper border-b border-ink/85">
+          {/* Advisory practice — A focused advisory practice */}
+          <section className="bg-paper border-b border-ink/85">
             <div className="section-container py-20 lg:py-28">
               <div className="grid lg:grid-cols-12 gap-10 mb-14">
                 <div className="lg:col-span-6">
-                  <p className="label-small text-ink/60 mb-5">§ Team</p>
+                  <p className="label-small text-ink/60 mb-5">§ Advisory practice</p>
                   <h2 className="heading-section text-ink">
                     A focused advisory practice
                   </h2>
@@ -230,53 +230,6 @@ const About = () => {
                     meant to be used.
                   </p>
                 </div>
-              </div>
-            </div>
-
-            {/* Team members */}
-            <div className="border-t border-ink/85">
-              <div className="section-container pt-12 pb-6">
-                <p className="label-small text-ink/60 mb-5">§ The people</p>
-                <h3 className="font-serif text-3xl lg:text-4xl text-ink leading-tight tracking-[-0.015em] mb-10">
-                  The people behind the work
-                </h3>
-              </div>
-              <div className="grid md:grid-cols-2 border-t border-ink/85">
-                {[
-                  {
-                    name: 'Nejra Tuzlak',
-                    role: 'Chief Executive Officer',
-                    body: 'Nejra leads Palatine Advisory. Her background spans human resources, organisational design, and global operations at companies including Cisco, Dropbox, and Unity Technologies. She holds a Bachelor\'s degree in Business Administration from the University of San Francisco and a Master\'s in International Business and HR Management from San José State University.',
-                  },
-                  {
-                    name: 'Natasha Marianna Esposito',
-                    role: 'Senior Software Engineer',
-                    body: 'Natasha leads the technology side of the practice, supporting advisory teams with internal platforms, analytics tools, and workflow automation. She has more than a decade of experience in backend systems and cloud architecture, with earlier roles at Bending Spoons, NTT DATA, and Reply. She holds a Master\'s degree in Computer Software Engineering from Politecnico di Milano.',
-                  },
-                  {
-                    name: 'Elise Moretti',
-                    role: 'Director of Client Advisory',
-                    body: 'Elise manages client relationships and engagement delivery across Palatine Advisory\'s practice areas. She previously led operational improvement programmes at McKinsey & Company and Bain & Company, with particular depth in organisational design and leadership team effectiveness. She holds an MBA from INSEAD and a degree in Economics from Bocconi University.',
-                  },
-                  {
-                    name: 'Luca Romano',
-                    role: 'Senior Strategy Advisor',
-                    body: 'Luca advises leadership teams on strategic clarity, decision-making architecture, and execution discipline. Before joining Palatine Advisory, he spent eight years at The Boston Consulting Group, where he focused on transformation and private equity due diligence. He holds a Master\'s in Management from the London School of Economics and a degree in Business from Università Cattolica del Sacro Cuore.',
-                  },
-                ].map((p, i) => (
-                  <div
-                    key={p.name}
-                    className={`px-8 lg:px-14 py-14 lg:py-16 border-ink/85 ${
-                      i % 2 === 0 ? 'md:border-r' : ''
-                    } ${i < 2 ? 'border-b' : ''}`}
-                  >
-                    <p className="label-small text-ink/55 mb-4">{p.role}</p>
-                    <h4 className="font-serif text-2xl md:text-3xl text-ink leading-tight mb-5">
-                      {p.name}
-                    </h4>
-                    <p className="body-base text-ink/75 max-w-md">{p.body}</p>
-                  </div>
-                ))}
               </div>
             </div>
 

@@ -163,7 +163,6 @@ export const Footer = () => {
               { label: 'Privacy', to: '/privacy' },
               { label: 'Terms', to: '/terms' },
               { label: 'Cookies', to: '/cookies' },
-              { label: 'Legal Notice', to: '/legal-notice' },
             ].map((item) => (
               <Link
                 key={item.label}

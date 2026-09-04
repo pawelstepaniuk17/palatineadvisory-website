@@ -13,7 +13,7 @@ export const HeroSection = () => {
         <div className="lg:col-span-7 bg-mustard relative px-8 lg:px-16 py-20 lg:py-28 flex flex-col justify-between min-h-[78vh]">
           <div>
             <h1 className="font-serif text-ink text-5xl md:text-6xl lg:text-7xl xl:text-[5.25rem] leading-[1.02] tracking-[-0.02em] max-w-3xl">
-              Bring clarity to how your team decides
+              Make decisions stick. Eliminate management friction.
             </h1>
           </div>
 

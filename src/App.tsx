@@ -19,7 +19,6 @@ import Contact from "./pages/Contact";
 import Privacy from "./pages/Privacy";
 import Terms from "./pages/Terms";
 import Cookies from "./pages/Cookies";
-import LegalNotice from "./pages/LegalNotice";
 import NotFound from "./pages/NotFound";
 import CookieConsent from "@/components/CookieConsent";
 
@@ -48,7 +47,6 @@ const App = () => (
             <Route path="/privacy" element={<Privacy />} />
             <Route path="/terms" element={<Terms />} />
             <Route path="/cookies" element={<Cookies />} />
-            <Route path="/legal-notice" element={<LegalNotice />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
           <CookieConsent />
